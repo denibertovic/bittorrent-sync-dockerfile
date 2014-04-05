@@ -8,6 +8,11 @@ Build
 
     docker build -t btsync .
 
+
+Or pull from index:
+    
+    docker pull denibertovic/btsync
+
 Make sync folder on your desktop:
     
     mkdir -p /home/myuser/btsync/.sync
